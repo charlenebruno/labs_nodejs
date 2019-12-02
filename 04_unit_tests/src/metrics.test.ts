@@ -10,7 +10,6 @@ describe('Metrics', function () {
     LevelDB.clear(dbPath)
     dbMet = new MetricsHandler(dbPath)
   })
-
   after(function () {
     dbMet.closeDB()
   })
